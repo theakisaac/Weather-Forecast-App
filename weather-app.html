@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather-app.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Weather Forecast App</h1>
+
+      <div>
+        <form>
+          <input type="text" id="city-input" placeholder="Enter City" />
+          <input type="submit" value="Get Weather" />
+        </form>
+      </div>
+
+      <div id="weather-data">
+        <div class="icon">
+          <img src="./Media file/sun-icon-8582.png" alt="Weather Icon" />
+          <!-- <img src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon"> -->
+        </div>
+
+        <div class="temperature">22°C</div>
+        <div class="description">Sunny</div>
+        <div class="details">
+          <div>Feels like: 23°C</div>
+          <div>Humidity: 40%</div>
+          <div>Wind speed: 5 m/s</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="weather-app.js"></script>
+  </body>
+</html>
